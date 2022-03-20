@@ -1,0 +1,84 @@
+.hero{
+    max-width: 1000px;
+    margin: 9rem auto;
+    margin-bottom: 0;
+    padding: 2rem;
+}
+.hero .hero-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.hero .hero-container h1{
+    font-size: 6rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.hero .hero-container p{
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.hero .hero-container .hero-last {
+    margin-top: 2.2rem;
+}
+
+.hero .hero-container .hero-last .btn{
+    font-size: 2rem;
+    background-color: #BE2929;
+    padding: .5rem 2rem;
+    font-weight: bold;
+    border-radius: 30px;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    -ms-border-radius:30px;
+    -o-border-radius:30px;
+    position: relative;
+}
+
+.hero .hero-container .hero-last .btn::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: transparent;
+    border: 1px solid #BE2929;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.hero .hero-container .hero-last .btn::before:hover{
+   background-color: aliceblue;
+}
+.hero .hero-container .hero-last p{
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+
+@media(max-width:768px){
+    .hero .hero-container h1{
+    font-size: 5rem;
+    }
+}
+
+@media(max-width:500px){
+    .hero .hero-container h1{
+    font-size: 3rem;
+    }
+
+    .hero .hero-container p{
+        font-size: 1rem;
+    }
+    .hero .hero-container .hero-last .btn{
+        font-size: 1.5rem;
+        padding: .5rem 1.8rem;
+    }
+}
