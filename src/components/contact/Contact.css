@@ -1,0 +1,61 @@
+#contact{
+    background-color: #fff;
+}
+.contact-container{
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5rem 9%;
+    margin-bottom: 0;
+    
+}
+
+.contact-container h1{
+     font-size: 3.875rem;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+    margin-bottom: 2rem;
+    
+}
+.contact-container h2{
+    color: #000;
+    font-size: 2.25rem;
+    
+}
+.contact-container h2 span{
+    color: #1D3DE8;
+}
+.contact-container .box-contact{
+    margin-top: 3rem;
+}
+.contact-container .box-contact .name-email h3{
+    font-size: 2.25rem;
+    color: #343333;
+    font-weight: 500;
+}
+.contact-container .box-contact .name-email input{
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, .1);
+    height: 54px;
+    width: 100%;
+}
+.contact-container .box-contact input::placeholder{
+    color: #8A8686;
+    padding: 2rem;
+}
+.contact-container .box-contact .send-button {
+    margin-top: 3rem;
+}
+.contact-container .box-contact .send-button textarea{
+    height: 248px;
+    width: 100%;
+}
+.contact-container .box-contact .send-button .button{
+    margin-top: 2rem;
+}
+.contact-container .box-contact .send-button .button a{
+    background-color: #1D3DE8;
+    padding: .5rem 2.5rem;
+}

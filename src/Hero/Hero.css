@@ -24,16 +24,21 @@
     margin-top: 2.2rem;
 }
 
+.hero .hero-container .hero-last p{
+    font-size: 16px;
+    color: #aaa;
+}
+
 .hero .hero-container .hero-last .btn{
     font-size: 2rem;
     background-color: #BE2929;
     padding: .5rem 2rem;
     font-weight: bold;
     border-radius: 30px;
-    -webkit-border-radius:30px;
-    -moz-border-radius:30px;
-    -ms-border-radius:30px;
-    -o-border-radius:30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
     position: relative;
 }
 
